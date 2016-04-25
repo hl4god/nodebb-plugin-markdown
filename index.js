@@ -129,8 +129,8 @@
 			},
 
 			registerFormatting: function(payload, callback) {
-				var formatting = ['bold', 'italic', 'list', 'strikethrough', 'link', 'picture-o'];
-
+				var formatting = ['bold', 'italic', 'list', 'strikethrough', 'link'];
+				//, 'picture-o'
 				formatting.reverse();
 				formatting.forEach(function(format) {
 					payload.options.unshift({ name: format, className: 'fa fa-' + format });
@@ -237,4 +237,3 @@
 
 	module.exports = Markdown;
 })();
-

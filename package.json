@@ -1,21 +1,21 @@
 {
-  "name": "nodebb-plugin-markdown",
+  "name": "nodebb-plugin-markdown-ol",
   "version": "5.1.0",
   "description": "A Markdown parser for NodeBB",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-markdown"
+    "url": "https://github.com/hl4god/nodebb-plugin-markdown"
   },
   "keywords": [
     "nodebb",
     "plugin",
     "markdown"
   ],
-  "author": "Julian Lam <julian@designcreateplay.com>",
+  "author": "Holly He<hl4god@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-markdown/issues"
+    "url": "https://github.com/hl4god/nodebb-plugin-markdown/issues"
   },
   "dependencies": {
     "markdown-it": "^6.0.0"
