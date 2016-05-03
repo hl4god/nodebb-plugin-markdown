@@ -42,7 +42,7 @@
 				links.push({
 					rel: "stylesheet",
 					type: "",
-					href: nconf.get('relative_path') + '/plugins/nodebb-plugin-markdown/styles/' + (Markdown.config.highlightTheme || 'railscasts.css')
+					href: nconf.get('relative_path') + '/plugins/nodebb-plugin-markdown-ol/styles/' + (Markdown.config.highlightTheme || 'railscasts.css')
 				});
 				callback(null, links);
 			},

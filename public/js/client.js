@@ -107,7 +107,7 @@ $(document).ready(function() {
 			var codeBlocks = elements;
 
 			if (typeof hljs === 'undefined') {
-				$.getScript(RELATIVE_PATH + '/plugins/nodebb-plugin-markdown/js/highlight.js', highlightBlock);
+				$.getScript(RELATIVE_PATH + '/plugins/nodebb-plugin-markdown-ol/js/highlight.js', highlightBlock);
 			} else {
 				highlightBlock();
 			}

@@ -6,4 +6,4 @@ To customise options for the parser, please consult the "Markdown" page in the a
 
 ## Installation
 
-    npm install nodebb-plugin-markdown
+    npm install nodebb-plugin-markdown-ol
